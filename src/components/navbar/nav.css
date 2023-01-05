@@ -1,9 +1,12 @@
+nav {
+  position: fixed;
+}
 .nav__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background: antiquewhite;
-  padding: 0rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .logo__container .icon {
@@ -16,14 +19,19 @@
 
 .form__container {
   flex-basis: 10rem;
-  background: darkmagenta;
-}
-.form__container form {
-  /* background: darkmagenta; */
+  background: var(--color-gray);
+  padding-right: 1rem;
+  border-radius: 2rem;
+  border: 1px solid black;
 }
 
 .form__container input {
   width: 50rem;
-  padding: 0.3rem 1rem;
-  border-radius: 2rem;
+  padding: 0.8rem 1rem;
+  border-radius: 2rem 0 0 2rem;
+  border: 0 solid transparent;
+}
+
+.form__container .icon {
+  background: var(--color-gray);
 }
