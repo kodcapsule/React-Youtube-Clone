@@ -7,6 +7,7 @@ import { IoLogoYoutube } from "react-icons/io";
 import { BsBellFill } from "react-icons/bs";
 import { RiVideoAddFill } from "react-icons/ri";
 import { FaMicrophone } from "react-icons/fa";
+import { RxMagnifyingGlass } from "react-icons/rx";
 
 const Nav = () => {
   return (
@@ -19,6 +20,7 @@ const Nav = () => {
       <div className="form__container flex__container">
         <form action="#">
           <input type="text" placeholder="Search..." />
+          <RxMagnifyingGlass className="icon" />
         </form>
         <FaMicrophone className="icon" />
       </div>
