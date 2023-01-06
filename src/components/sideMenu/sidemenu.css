@@ -1,3 +1,9 @@
 aside {
   background: yellowgreen;
+  padding: 0.5rem 1rem;
+}
+
+.aside__items {
+  display: flex;
+  flex-direction: column;
 }
