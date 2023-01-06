@@ -27,6 +27,12 @@ body {
   margin: 0 auto;
 }
 
+.main_container {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin: 4rem auto;
+}
+
 .flex__container {
   display: flex;
   align-items: center;
