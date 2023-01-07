@@ -19,18 +19,6 @@ const SideMenu = () => {
           <MdSubscriptions /> <span>Subscriptions</span>
         </div>
       </div>
-      {/* 
-      <div className="aside__items ">
-        <div className="aside_item">
-          <AiFillHome /> <span>Home</span>
-        </div>
-        <div className="aside_item">
-          <MdSubscriptions /> <span>Home</span>
-        </div>
-        <div className="aside_item">
-          <MdSubscriptions /> <span>Home</span>
-        </div>
-      </div> */}
     </aside>
   );
 };
