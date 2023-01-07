@@ -2,7 +2,9 @@ aside {
   position: absolute;
   background: yellowgreen;
   padding: 0.5rem 1rem;
-  overflow-y: scroll;
+  /* overflow: auto; */
+  overflow: hidden scroll;
+  height: 95vh;
   top: 0;
   left: 0;
 }

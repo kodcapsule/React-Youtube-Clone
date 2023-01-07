@@ -1,6 +1,8 @@
 import React from "react";
 import "./sidemenu.css";
 
+import Avatar from "../../Avatar";
+
 import { AiFillHome } from "react-icons/ai";
 import { MdSubscriptions } from "react-icons/md";
 import { RiMovie2Fill } from "react-icons/ri";
@@ -9,6 +11,10 @@ import { GrHistory } from "react-icons/gr";
 import { RiVideoFill } from "react-icons/ri";
 import { BsFillClockFill } from "react-icons/bs";
 import { MdThumbUp } from "react-icons/md";
+import { IoMdMusicalNote } from "react-icons/io";
+import { SiYoutubegaming } from "react-icons/si";
+import { BsFillTrophyFill } from "react-icons/bs";
+import { HiFire } from "react-icons/hi";
 
 const SideMenu = () => {
   return (
@@ -46,38 +52,37 @@ const SideMenu = () => {
       {/* ============================================================= */}
 
       <div className="aside__items ">
-        <div className="aside_item active ">
-          <MdVideoLibrary /> <span>library</span>
+        <h3>Subscriptions</h3>
+        <div className="aside_item  ">
+          <Avatar /> <span>library</span>
         </div>
         <div className="aside_item">
-          <GrHistory /> <span>History</span>
+          <Avatar /> <span>library</span>
         </div>
         <div className="aside_item">
-          <RiVideoFill /> <span>Your Videos</span>
+          <Avatar /> <span>library</span>
         </div>
         <div className="aside_item">
-          <BsFillClockFill /> <span>Watch Later </span>
+          <Avatar /> <span>library</span>
         </div>
         <div className="aside_item">
-          <MdThumbUp /> <span>Likes </span>
+          <Avatar /> <span>library</span>
         </div>
       </div>
-
+      {/* ============================================================= */}
       <div className="aside__items ">
+        <h3>Explore</h3>
         <div className="aside_item active ">
-          <MdVideoLibrary /> <span>library</span>
+          <HiFire /> <span>trending</span>
         </div>
         <div className="aside_item">
-          <GrHistory /> <span>History</span>
+          <IoMdMusicalNote /> <span>Music</span>
         </div>
         <div className="aside_item">
-          <RiVideoFill /> <span>Your Videos</span>
+          <SiYoutubegaming /> <span>Gaming</span>
         </div>
         <div className="aside_item">
-          <BsFillClockFill /> <span>Watch Later </span>
-        </div>
-        <div className="aside_item">
-          <MdThumbUp /> <span>Likes </span>
+          <BsFillTrophyFill /> <span>Sports </span>
         </div>
       </div>
     </aside>

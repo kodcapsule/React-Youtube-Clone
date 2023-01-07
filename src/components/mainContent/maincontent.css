@@ -2,7 +2,8 @@ section {
   background: blue;
   padding: 0.5rem 1rem;
   position: absolute;
-  overflow-y: scroll;
+  overflow: hidden scroll;
+  height: 100vh;
   margin-top: 0.5rem;
   left: 12.5%;
 }
