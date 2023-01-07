@@ -29,7 +29,8 @@ body {
 
 .main_container {
   display: grid;
-  grid-template-columns: 25% 75%;
+  position: relative;
+  grid-template-columns: 15% 85%;
   margin: 4rem auto;
 }
 

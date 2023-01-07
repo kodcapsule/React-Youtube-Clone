@@ -1,9 +1,41 @@
 aside {
+  position: absolute;
   background: yellowgreen;
   padding: 0.5rem 1rem;
+  overflow-y: scroll;
+  top: 0;
+  left: 0;
 }
 
 .aside__items {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.aside_item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  gap: 1rem;
+  border-radius: 3px;
+  transition: all 300ms ease-in-out;
+}
+
+.aside_item:hover {
+  background: var(--color-gray);
+  cursor: pointer;
+}
+
+.aside_item span {
+  font-size: 1.8rem;
+  letter-spacing: 1.8;
+  text-transform: capitalize;
+}
+
+.active {
+  background: var(--color-gray);
 }
