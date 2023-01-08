@@ -38,6 +38,10 @@ aside {
   text-transform: capitalize;
 }
 
+.aside_item .icon {
+  font-size: 2rem;
+}
+
 .active {
   background: var(--color-gray);
 }

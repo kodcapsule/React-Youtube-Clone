@@ -21,32 +21,32 @@ const SideMenu = () => {
     <aside>
       <div className="aside__items ">
         <div className="aside_item active ">
-          <AiFillHome /> <span>Home</span>
+          <AiFillHome className="icon" /> <span>Home</span>
         </div>
         <div className="aside_item">
-          <RiMovie2Fill /> <span>Inshots</span>
+          <RiMovie2Fill className="icon" /> <span>Inshots</span>
         </div>
         <div className="aside_item">
-          <MdSubscriptions /> <span>Subscriptions</span>
+          <MdSubscriptions className="icon" /> <span>Subscriptions</span>
         </div>
       </div>
       {/* ============================================================= */}
 
       <div className="aside__items ">
-        <div className="aside_item active ">
-          <MdVideoLibrary /> <span>library</span>
+        <div className="aside_item  ">
+          <MdVideoLibrary className="icon" /> <span>library</span>
         </div>
         <div className="aside_item">
-          <GrHistory /> <span>History</span>
+          <GrHistory className="icon" /> <span>History</span>
         </div>
         <div className="aside_item">
-          <RiVideoFill /> <span>Your Videos</span>
+          <RiVideoFill className="icon" /> <span>Your Videos</span>
         </div>
         <div className="aside_item">
-          <BsFillClockFill /> <span>Watch Later </span>
+          <BsFillClockFill className="icon" /> <span>Watch Later </span>
         </div>
         <div className="aside_item">
-          <MdThumbUp /> <span>Likes </span>
+          <MdThumbUp className="icon" /> <span>Likes </span>
         </div>
       </div>
       {/* ============================================================= */}
@@ -73,17 +73,21 @@ const SideMenu = () => {
       <div className="aside__items ">
         <h3>Explore</h3>
         <div className="aside_item active ">
-          <HiFire /> <span>trending</span>
+          <HiFire className="icon" /> <span>trending</span>
         </div>
         <div className="aside_item">
-          <IoMdMusicalNote /> <span>Music</span>
+          <IoMdMusicalNote className="icon" /> <span>Music</span>
         </div>
         <div className="aside_item">
-          <SiYoutubegaming /> <span>Gaming</span>
+          <SiYoutubegaming className="icon" /> <span>Gaming</span>
         </div>
         <div className="aside_item">
-          <BsFillTrophyFill /> <span>Sports </span>
+          <BsFillTrophyFill className="icon" /> <span>Sports </span>
         </div>
+      </div>
+
+      <div className="aside__items ">
+        <h4>Lorem ipsu</h4>
       </div>
     </aside>
   );
