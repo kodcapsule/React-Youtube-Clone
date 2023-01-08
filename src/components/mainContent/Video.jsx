@@ -1,11 +1,12 @@
 import React from "react";
 import Avatar from "../../Avatar";
+import Me from "../../assets/keras-logo.png";
 
 const Video = () => {
   return (
     <article>
       <div className="image_container">
-        <img src="" alt="" />
+        <img src={Me} alt="img" />
       </div>
       <div className="content">
         <Avatar />{" "}
