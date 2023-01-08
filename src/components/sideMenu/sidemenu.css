@@ -25,6 +25,7 @@ aside {
   gap: 1rem;
   border-radius: 3px;
   transition: all 300ms ease-in-out;
+  color: black;
 }
 
 .aside_item:hover {

@@ -1,9 +1,27 @@
+/* main {
+  
+} */
+
 section {
   background: blue;
-  padding: 0.5rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  padding: 1rem 1rem;
   position: absolute;
   overflow: hidden scroll;
   height: 95vh;
   margin-top: 0.5rem;
   left: 13%;
+  gap: 1rem;
+}
+
+article {
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 0.5rem;
+}
+
+article .content {
+  display: flex;
+  gap: 1rem;
 }
