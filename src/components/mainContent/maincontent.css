@@ -3,9 +3,9 @@
 } */
 
 section {
-  /* background: blue; */
+  width: 87vw;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(min(31rem, 100%), 1fr));
   padding: 1rem 1rem;
   position: absolute;
   overflow: hidden scroll;
@@ -16,7 +16,7 @@ section {
 }
 
 article {
-  width: 31.7rem;
+  /* width: 31rem; */
   border-radius: 1rem;
   background: #fff;
   box-shadow: -2px 3px 12px -2px rgba(0, 0, 0, 0.4);
