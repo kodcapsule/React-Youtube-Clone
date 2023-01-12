@@ -3,7 +3,7 @@
 } */
 
 section {
-  width: 87vw;
+  width: 92vw;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(min(31rem, 100%), 1fr));
   padding: 1rem 1rem;
@@ -11,7 +11,7 @@ section {
   overflow: hidden scroll;
   height: 95vh;
   margin-top: 4rem;
-  left: 13%;
+  left: 8%;
   gap: 1rem;
   /* z-index: 1; */
 }
@@ -44,7 +44,7 @@ article .content {
   display: flex;
   justify-content: space-evenly;
   margin-top: 0.5rem;
-  left: 13%;
+  left: 8%;
   gap: 1rem;
   width: 100vw;
   z-index: 1;

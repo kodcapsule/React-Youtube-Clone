@@ -46,3 +46,27 @@ aside {
 .active {
   background: var(--color-gray);
 }
+
+.main__aside__items {
+  display: none;
+}
+
+.main__aside .aside__items {
+  gap: 3rem;
+  border: none;
+}
+
+.main__aside .aside__items.aside_item {
+  padding: 3rem 0.3rem !important;
+}
+.flex__cloumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.flex__cloumn span {
+  font-size: 1.2rem;
+}
